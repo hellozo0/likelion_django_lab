@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+<h2> 자세한 본문 내용</h2>
+<br><br>
+<h3>제목: {{blog.title}}</h3>
+<p>작성 날짜: {{blog.pub_date}}</p>
+<p>자세한 본문: {{blog.body}}</p>
+<a href = "http://127.0.0.1:8000/photo">사진보러가기</a>
+
+
+{% endblock %}
